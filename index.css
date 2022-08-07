@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+}
+
+body {
+  margin-bottom: 30px;
+}
+
+div.parent {
+  padding: 5px 5px;
+  height: 20vmin;
+  background-color: #5f8e5e;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+}
+
+h1 {
+  margin: 10px 0px 1px 0px;
+  text-decoration-line: overline;
+}
+
+p.child2, p.child5{
+  color: #096007;
+  font-weight: 900;
+  text-decoration: underline dotted;
+}
+
+p.child3 {
+  text-decoration: line-through #f0000f 0.5px;
+}
+
+div.wrapper {
+  width: 350px;
+  height: 110px;
+  background-color: #fff000;
+  margin: 30px 0px 0px 30px;
+  padding: 15px 15px;
+  border: 5px dotted #000;
+}
+
+h2 {
+  text-align: center;
+  font-style: oblique;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+p.wrapper, p.wrapper1, p.wrapper2, p.wrapper3 {
+  text-indent: 15px;
+  line-height: 24px;
+}
+
+div.wrapper1 {
+  width: 350px;
+  height: 110px;
+  background-color: #008000;
+  margin-left: 1000px;
+  padding: 15px 15px;
+  border: 5px dashed #000;
+}
+
+div.wrapper2 {
+  width: 350px;
+  height: 110px;
+  background-color: #891bcd;
+  margin-left: 300px;
+  padding: 15px 15px;
+  border: 5px dashed #000; 
+}
+
+div.wrapper3 {
+  width: 350px;
+  height: 110px;
+  background-color: #d86262;
+  margin-left: 600px;
+  padding: 15px 15px;
+  border: 5px dotted #000; 
+}
