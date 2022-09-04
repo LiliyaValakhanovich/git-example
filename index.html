@@ -4,38 +4,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flexbox</title>
+  <title>Grid</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <div class="conteiner">
-    
-    <header>
-      
-      <div class="header">
-        <h1 class="title">header</h1>
-        
+
+    <div class="gridbox">
+
+      <header class="header" style="grid-area: header">
+        <h1 class="header_title">Header</h1>
         <nav>
-          <ul class="header-item">
-            <li class="item">About us</li>
-            <li class="item">Collections</li>
-            <li class="item">New collection</li>
-            <li class="item">Special offers</li>
-            <li class="item">Gallery</li>
-            <li class="item">Reviews</li>
+          <ul class="menu">
+
+            <li class="item">
+              <buttom class="buttom">About us</buttom>
+            </li>
+
+            <li class="item">
+              <buttom class="buttom">Collections</buttom>
+            </li>
+
+            <li class="item"> 
+              <buttom class="buttom">New collection</buttom>
+            </li>
+
+            <li class="item">
+              <buttom class="buttom">Special offers</buttom>
+            </li>
+
+            <li class="item">
+              <button class="buttom">Gallery</button>
+            </li>
+
+            <li class="item">
+              <buttom class="buttom">Reviews</buttom>
+            </li>
+
           </ul>
         </nav>
 
-      </div>
+      </header>
 
-    </header>
-  
-    <main>
+      <main class="main" style="grid-area: main">
+        <h2 class="main_title">Main</h2>
 
-      <div class="main">
-        <h1 class="title">main</h1>
+        <section class="main_child">
 
-        <div class="main-child">
           <div class="child">1</div>
           <div class="child">2</div>
           <div class="child">3</div>
@@ -44,19 +59,19 @@
           <div class="child">6</div>
           <div class="child">7</div>
           <div class="child">8</div>
-        </div>
-        
-      </div>
+          <div class="child">9</div>
+          <div class="child">10</div>
+          <div class="child">11</div>
+          
+        </section>
 
-    </main>
-  
-    <footer>
+      </main>
 
-      <div class="footer">
-        <h1 class="title">footer</h1>
-      </div>
+      <footer class="footer" style="grid-area: footer">
+        <h2 class="footer_title">Footer</h2>
+      </footer>
 
-    </footer>
+    </div>
 
   </div>
 
