@@ -1,24 +1,24 @@
 @font-face {
   font-family: "Raleway";
-  src: url('font/Raleway/static/Raleway-Bold.ttf') format('truetipe');
+  src: url(font/Raleway/static/Raleway-Bold.ttf) format('truetype');
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Raleway";
-  src: url('font/Raleway/static/Raleway-Regular.ttf') format('truetipe');
+  src: url(font/Raleway/static/Raleway-Regular.ttf) format('truetype');
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url('font/Roboto/Roboto-Bold.ttf') format('truetipe');
+  src: url(font/Roboto/Roboto-Bold.ttf) format('truetype');
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url('font/Roboto/Roboto-Regular.ttf') format('truetipe');
+  src: url(font/Roboto/Roboto-Regular.ttf) format('truetype');
   font-weight: 400;
 }
 
@@ -598,7 +598,6 @@ a {
   border: none;
   height: 2px;
   background-color: #c7c7c7;
-  color: #c7c7c7;
   width: 93.75%;
 }
 
@@ -779,7 +778,6 @@ a {
 
 .line {
   background-color: #ffffff;
-  color: #ffffff;
   height: 2px;
   border: none;
 }
